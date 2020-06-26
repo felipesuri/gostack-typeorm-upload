@@ -10,7 +10,7 @@ import {
 
 import Category from './Category';
 
-export type TransactionType = 'income' | 'outcume';
+export type TransactionType = 'income' | 'outcome';
 
 @Entity('transactions')
 class Transaction {
@@ -28,6 +28,9 @@ class Transaction {
 
   @Column('int')
   value: number;
+
+  @Column('uuid')
+  category_id: string;
 
   @ManyToOne(() => Category, category => category.transactions, {
     onDelete: 'SET NULL',
