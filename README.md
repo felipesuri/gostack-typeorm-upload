@@ -21,7 +21,7 @@
 
 ## :rocket: Sobre o desafio
 
-Este desafio está incluso no módulo 01 do Bootcamp GoStack. Você pode ver mais especificações do desafio [aqui](https://github.com/felipesuri/desafios-bootcamp-gostack/blob/master/module-02/database-upload/README.md).
+Este desafio está incluso no módulo 02 do Bootcamp GoStack. Você pode ver mais especificações do desafio [aqui](https://github.com/felipesuri/desafios-bootcamp-gostack/blob/master/module-02/database-upload/README.md).
 
 ## :calendar: Entrega
 
